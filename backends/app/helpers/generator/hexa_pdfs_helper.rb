@@ -1,0 +1,2 @@
+module Generator::HexaPdfsHelper
+end

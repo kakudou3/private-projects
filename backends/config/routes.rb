@@ -14,5 +14,6 @@ Rails.application.routes.draw do
 
   namespace :generator do
     resources :hexa_pdfs, :show
+    resources :ferrum_pdfs, only: [ :index, :show ]
   end
 end
